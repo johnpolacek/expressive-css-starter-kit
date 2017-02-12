@@ -4,7 +4,12 @@ $(function() {
 			e.preventDefault();
 			var $modalContainer = $('#'+$(this).attr('data-modal'))
 				.height($(document).height())
-				.removeClass('hidden');
+				.removeClass('hidden')
+				.addClass('transparent')
+				.addClass('animate')
+				.delay(1).queue(function(){
+					$(this).removeClass('transparent').dequeue();
+				});
 
 			var $modal = $modalContainer.find('.modal'),
 				panelHeight = $modal.outerHeight(),
@@ -18,6 +23,9 @@ $(function() {
 		})
 		.on('click','*[data-modal-close]',function(e) {
 			e.preventDefault();
-			$(this).parents('.overlay').addClass('hidden');
+			$(this).parents('.overlay').addClass('transparent').delay(500).queue(function(){
+				$(this).addClass('hidden').dequeue();
+
+			});
 		});
 });
