@@ -1,0 +1,58 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Expressive CSS Starter Kit</title>
+        <meta name="description" content="An approach to writing CSS using utility classes that are easy to write and understand.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,700,400italic,200,200italic' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="../../css/style.min.css">
+        <link rel="shortcut icon" href="../../favicon.ico">
+    </head>
+    <body>
+
+        <nav class="grid-12 bgr-grey-lt">
+            <div class="box-960 box-center">
+                <a class="inline pad-2-vert pad-2 border-0" href="../">Styleguide</a>
+                <a class="inline bold bgr-white pad-2 border-0 text-dark" href="../components.html">Components</a>
+            </div>
+        </nav>
+
+        <section class="grid-12 pad-3 s-pad-2">
+            <div class="box-960 box-center pad-3-bottom rel">
+                <a class="abs pos-top pos-right link-text" href="../components.html">View all components</a>
+                <h1 class="marg-3-bottom text-blue-lt text-light border-bottom">Modal</h1>
+                <div class="grid-12 pad-3 marg-3-top text-center">
+                    <button id="triggerModal" class="btn-huge marg-2-top" data-modal="modalSuccess">
+                        Trigger Modal
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <div class="overlay abs wide bgr-trans-dark hidden" id="modalSuccess">
+            <div class="abs pos-top pos-left wide tall clickable" data-modal-close></div>
+            <div class="modal rel pos-top pos-left bgr-white box-center box-400 pad-3" id="modalSuccessContent">
+                <span href="#" class="abs pos-top pos-right pad-btn-large clickable text-gray" data-modal-close>&times;</span>
+                <h3 class="pad-1-bottom">All Set!</h3>
+                <p>Congratulations. You did it.</p>
+                <div class="pad-2-top text-right">
+                    <button data-modal-close>OK</button>
+                </div>
+            </div>
+        </div>
+
+        <script type="text/javascript" src="../../js/lib/jquery-3.1.1.min.js"></script>
+        <script type="text/javascript" src="../../js/components/modal.js"></script>
+
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='https://www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-2821890-9','auto');ga('send','pageview');
+        </script>
+    </body>
+</html>

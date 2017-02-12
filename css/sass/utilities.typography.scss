@@ -1,0 +1,21 @@
+@import 'vars.scss';
+
+dt, strong,.bold { font-weight:bold; }
+em, .italic { font-style:italic; }
+.text-reg {font-weight: normal;}
+.text-light { font-weight:200; }
+
+.text-10 {font-size:10px;}
+.text-11 {font-size:11px;}
+.text-12 {font-size:12px;}
+.text-14, small {font-size:14px;}
+.text-16, body, p, h6, h5 {font-size:16px;}
+.text-18, h4 {font-size:18px;}
+.text-20, h3 {font-size:24px;}
+.text-24, h2 {font-size:36px;}
+.text-32, h1 {font-size:48px;}
+
+.uppercase { text-transform:uppercase; }
+.lowercase { text-transform:lowercase; }
+
+.letter-space-1 { letter-spacing:1px; }

@@ -1,0 +1,507 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Expressive CSS Starter Kit</title>
+        <meta name="description" content="An approach to writing CSS using utility classes that are easy to write and understand.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,700,400italic,200,200italic' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="../css/style.min.css">
+        <link rel="shortcut icon" href="../favicon.ico">
+    </head>
+    <body>
+
+        <nav class="grid-12 bgr-grey-lt">
+            <div class="box-960 box-center">
+                <span class="inline bold bgr-white pad-2" href="#">Styleguide</span>
+                <a class="inline pad-2-vert pad-2 border-0" href="components.html">Components</a>
+            </div>
+        </nav>
+
+        <section class="grid-12 pad-3 s-pad-2">
+            <div class="box-960 box-center pad-3-bottom">
+                <h1 class="marg-3-bottom text-blue-lt text-light border-bottom">Styleguide</h1>
+            </div>
+            
+            <div class="box-960 box-center">
+                <div class="grid-12 pad-2-bottom">
+                    <h3 class="marg-2-bottom bgr-green-dk text-white text-light pad-2-sides">Colors</h3>
+                </div>
+                <div class="grid-12 marg-3-bottom border">
+                    <div class="bgr-blue grid-3 m-grid-4 s-grid-6 pad-2 text-white">
+                        <code>.bgr-blue</code><br/>#287dbe
+                    </div>
+                    <div class="bgr-blue-lt grid-3 m-grid-4 s-grid-6 pad-2 text-white">
+                        <code>.bgr-blue-lt</code><br/>#75c5df
+                    </div>
+                    <div class="bgr-blue-dk grid-3 m-grid-4 s-grid-6 pad-2 text-white">
+                        <code>.bgr-blue-dk</code><br/>#384992
+                    </div>
+                    <div class="bgr-white grid-3 m-grid-4 s-grid-6 pad-2 text-gray">
+                        <code>.bgr-white</code><br/>#fff
+                    </div>
+                    <div class="bgr-red grid-3 m-grid-4 s-grid-6 pad-2 text-white">
+                        <code>.bgr-red</code><br/>#cd242a
+                    </div>
+                    <div class="bgr-dark grid-3 m-grid-4 s-grid-6 pad-2 text-white">
+                        <code>.bgr-dark</code><br/>#234
+                    </div>
+                    <div class="bgr-purple grid-3 m-grid-4 s-grid-6 pad-2 text-white">
+                        <code>.bgr-purple</code><br/>#9e579e
+                    </div>
+                    <div class="bgr-pink grid-3 m-grid-4 s-grid-6 pad-2 text-white">
+                        <code>.bgr-pink</code><br/>#ec66a2
+                    </div>
+                    <div class="bgr-green grid-3 m-grid-4 s-grid-6 pad-2 text-white">
+                        <code>.bgr-green</code><br/>#9fc74d
+                    </div>
+                    <div class="bgr-green-dk grid-3 m-grid-4 s-grid-6 pad-2 text-white">
+                        <code>.bgr-green-dk</code><br/>#5bb12f
+                    </div>
+                    <div class="bgr-grey grid-3 m-grid-4 s-grid-6 pad-2 text-white">
+                        <code>.bgr-grey</code><br/>#999
+                    </div>
+                    <div class="bgr-grey-lt grid-3 m-grid-4 s-grid-6 pad-2 text-gray">
+                        <code>.bgr-grey-lt</code><br/>#ececec
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="grid-12 pad-3 s-pad-2">
+            <div class="box-960 box-center">
+                <div class="grid-12">
+                    <h3 class="marg-2-bottom bgr-green-dk text-white text-light pad-2-sides">Typography</h3>
+                    <p>Maintain consistency by using utility classes for font size, weight and styling. Margin and padding are 0 for <code>h1-h6</code>.</p>
+                </div>
+                <div class="grid-12 pad-3-bottom">
+                    <h3 class="grid-12 text-32 text-light marg-3-bottom">Titillium</h3>
+                    <div class="grid-12 pad-3-bottom">
+                        <div class="grid-3 m-grid-4 s-grid-12 pad-3-right">
+                            <p>Regular<br/><code class="text-small-2">.text-reg</code></p>
+                        </div>
+                        <div class="grid-9 m-grid-8 s-grid-12">
+                            <p>
+                                A B C D E F G H I J K L M N O P Q R S T U V W X Y Z<br/>
+                                a b c d e f g h i j k l m n o p q r s t u v w x y z<br/>
+                                1 2 3 4 5 6 7 8 9 0
+                            </p>
+                        </div>
+                    </div>
+                    <div class="grid-12 pad-3-bottom">
+                        <div class="grid-3 m-grid-4 s-grid-12 pad-3-right">
+                            <p>Bold<br/><code class="text-small-2">strong, .bold</code></p>
+                        </div>
+                        <div class="grid-9 m-grid-8 s-grid-12">
+                            <p class="bold">
+                                A B C D E F G H I J K L M N O P Q R S T U V W X Y Z<br/>
+                                a b c d e f g h i j k l m n o p q r s t u v w x y z<br/>
+                                1 2 3 4 5 6 7 8 9 0
+                            </p>
+                        </div>
+                    </div>
+                    <div class="grid-12 pad-3-bottom">
+                        <div class="grid-3 m-grid-4 s-grid-12 pad-3-right">
+                            <p>Light<br/><code class="text-small-2">.text-light</code></p>
+                        </div>
+                        <div class="grid-9 m-grid-8 s-grid-12">
+                            <p class="text-light">
+                                A B C D E F G H I J K L M N O P Q R S T U V W X Y Z<br/>
+                                a b c d e f g h i j k l m n o p q r s t u v w x y z<br/>
+                                1 2 3 4 5 6 7 8 9 0
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-12 pad-3-bottom">
+                    <div class="grid-3 m-grid-4 s-grid-12 pad-3-right">
+                        <p>Italic<br/><code class="text-small-2">em, .italic</code></p>
+                    </div>
+                    <div class="grid-9 m-grid-8 s-grid-12">
+                        <p class="italic">
+                            A B C D E F G H I J K L M N O P Q R S T U V W X Y Z<br/>
+                            a b c d e f g h i j k l m n o p q r s t u v w x y z<br/>
+                            1 2 3 4 5 6 7 8 9 0
+                        </p>
+                    </div>
+                </div>
+                <div class="grid-12 pad-3-bottom">
+                    <div class="grid-12 pad-3-bottom">
+                        <div class="grid-12 pad-2-bottom">
+                            <span class="text-32">text-32, h1</span><br/>
+                            <span class="text-24">text-24, h2</span><br/>
+                            <span class="text-20">text-20, h3</span><br/>
+                            <span class="text-18">text-18, h4</span><br/>
+                            <span class="text-16">text-16, body, p, h6, h5</span><br/>
+                            <span class="text-14">text-14, small</span><br/>
+                            <span class="text-12">text-12</span><br/>
+                            <span class="text-11">text-11</span><br/>
+                            <span class="text-10">text-10</span><br/>
+                        </div>
+                    </div>
+
+                    <div class="grid-12 pad-3-bottom text-light text-24">
+                        <span class="text-blue-lt">blue-lt</span>
+                        <span class="text-blue">blue</span>
+                        <span class="text-blue-dk">blue-dk</span>
+                        <span class="text-green">green</span>
+                        <span class="text-green-dk">green-dk</span>
+                        <span class="text-grey">grey</span>
+                        <span class="text-pink">pink</span>
+                        <span class="text-purple">purple</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="grid-12 pad-3 s-pad-2">
+            <div class="box-960 box-center">
+                <div class="grid-12 pad-3-bottom">
+                    <h3 class="marg-2-bottom bgr-green-dk text-white text-light pad-2-sides">Layout</h3>
+                </div>
+                <div class="grid-12 pad-3-bottom">
+                    <div class="grid-12 pad-3-bottom">
+                        <h5><code>.grid-#</code></h5>
+                        <p>Use the grid to handle the arrangement of fluid width elements on the page. Your grid should allow for responsive width adjustments at different breakpoints.</p>
+                        <div class="grid-12 text-white">
+                            <div class="grid-3 m-grid-6 s-grid-12 border border-white bgr-green pad-2-sides pad-1-top text-small">
+<pre><code>&lt;div class="grid-12 m-grid-6 l-grid-3"&gt;
+This div will be full 
+width for small screens, 
+2-column for medium and 
+4-column for large.
+&lt;/div&gt;</code></pre>
+                            </div>
+                            <div class="grid-3 m-grid-6 s-grid-12 border border-white bgr-green pad-2-sides pad-1-top text-small">
+<pre><code>&lt;div class="grid-12 m-grid-6 l-grid-3"&gt;
+This div will be full 
+width for small screens, 
+2-column for medium and 
+4-column for large.
+&lt;/div&gt;</code></pre>
+                            </div>
+                            <div class="grid-3 m-grid-6 s-grid-12 border border-white bgr-green pad-2-sides pad-1-top text-small">
+<pre><code>&lt;div class="grid-12 m-grid-6 l-grid-3"&gt;
+This div will be full 
+width for small screens, 
+2-column for medium and 
+4-column for large.
+&lt;/div&gt;</code></pre>
+                            </div>
+                            <div class="grid-3 m-grid-6 s-grid-12 border border-white bgr-green pad-2-sides pad-1-top text-small">
+<pre><code>&lt;div class="grid-12 m-grid-6 l-grid-3"&gt;
+This div will be full 
+width for small screens, 
+2-column for medium and 
+4-column for large.
+&lt;/div&gt;</code></pre>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="grid-12 pad-3-bottom">
+                        <h5><code>.container-#</code></h5>
+                        <p>Use container classes for semi-fixed width elements. Use .container, .box, .wrapper, .div, .div or something similar as a prefix. Typically these have their left and right margin set to auto so they will be centered.</p>
+                        <div class="grid-12 l-grid-6 border-green pad-2-sides pad-1-top text-small">
+<pre><code>.box-center {
+  margin-left: auto;
+  margin-right: auto;
+}
+.box-320 {  max-width:320px; }
+.box-400 {  max-width:400px; }
+.box-480 {  max-width:480px; }
+.box-640 {  max-width:640px; }
+.box-720 {  max-width:720px; }
+.box-800 {  max-width:800px; }
+.box-960 {  max-width:960px; }
+.box-1100 { max-width:1100px; }
+.box-1200 { max-width:1200px; }</code></pre>
+                        </div>
+                        <div class="grid-12 pad-3-vert text-center text-white">
+                            <div class="box-960 box-center marg-1-bottom bgr-green"><code>.box-960</code></div>
+                            <div class="box-800 marg-1-bottom bgr-green"><code>.box-800</code></div>
+                            <div class="box-720 marg-1-bottom bgr-green"><code>.box-720</code></div>
+                            <div class="box-640 marg-1-bottom bgr-green"><code>.box-640</code></div>
+                            <div class="box-480 marg-1-bottom bgr-green"><code>.box-480</code></div>
+                            <div class="box-400 marg-1-bottom bgr-green"><code>.box-400</code></div>
+                            <div class="box-320 marg-1-bottom bgr-green"><code>.box-320</code></div>
+                            <div class="box-960 box-center box-center marg-1-bottom bgr-green"><code>.box-center .box-960</code></div>
+                            <div class="box-800 box-center marg-1-bottom bgr-green"><code>.box-center .box-800</code></div>
+                            <div class="box-720 box-center marg-1-bottom bgr-green"><code>.box-center .box-720</code></div>
+                            <div class="box-640 box-center marg-1-bottom bgr-green"><code>.box-center .box-640</code></div>
+                            <div class="box-480 box-center marg-1-bottom bgr-green"><code>.box-center .box-480</code></div>
+                            <div class="box-400 box-center marg-1-bottom bgr-green"><code>.box-center .box-400</code></div>
+                            <div class="box-320 box-center marg-1-bottom bgr-green"><code>.box-center .box-320</code></div>
+                        </div>
+                    </div>
+                    
+                    <div class="grid-12 pad-3-bottom">
+                        <h5><code>.pad-# .marg-#</code></h5>
+                        <p>Use classes for levels of padding and margin to use across your site. By using these classes exclusively to set the spacing in and around the elements on the page, you will find it simple to maintain consistent alignment.</p>
+                        <p>Use breakpoint prefixing to adjust spacing for making layout adjustments at different screen sizes (e.g. <code>.s-pad-0</code> to remove padding for small screen sizes).</p>
+                        <div class="grid-12 l-grid-6 border-green pad-2-sides pad-1-top text-small">
+<pre><code>.pad-1 { padding: .5em; }
+.pad-1-left { padding-left: .5em; }
+.pad-1-right { padding-right: .5em; }
+.pad-1-top { padding-top: .5em; }
+.pad-1-bottom { padding-bottom: .5em; }
+.pad-1-sides { padding-left: .5em; padding-right: .5em; }
+.pad-1-vert { padding-top: .5em; padding-bottom: .5em; }
+.pad-2 { padding: 1em; }
+.pad-2-left { padding-left: 1em; }
+...etc
+</code></pre>
+                        </div>
+                        <div class="grid-12 l-grid-6 border-green pad-2-sides pad-1-top text-small l-border-left-0 m-border-top-0 s-border-top-0">
+<pre><code>.marg-1 { margin: .5em; }
+.marg-1-left { margin-left: .5em; }
+.marg-1-right { margin-right: .5em; }
+.marg-1-top { margin-top: .5em; }
+.marg-1-bottom { margin-bottom: .5em; }
+.marg-1-sides { margin-left: .5em; margin-right: .5em; }
+.marg-1-vert { margin-top: .5em; margin-bottom: .5em; }
+.marg-2 { margin: 1em; }
+.marg-2-left { margin-left: 1em; }
+...etc
+</code></pre>
+                        </div>
+                        <div class="grid-12 pad-3-vert text-center text-white">
+                            <div class="grid-3 s-grid-6 border border-white bgr-green pad-0"><code>.pad-0</code></div>
+                            <div class="grid-3 s-grid-6 border border-white bgr-green pad-1"><code>.pad-1</code></div>
+                            <div class="grid-3 s-grid-6 border border-white bgr-green pad-2"><code>.pad-2</code></div>
+                            <div class="grid-3 s-grid-6 border border-white bgr-green pad-3"><code>.pad-3</code></div>
+                        </div>
+                        
+                        <div class="grid-12 marg-1-bottom text-center bgr-green text-white"><code>.marg-1-bottom</code></div>
+                        <div class="grid-12 marg-2-bottom text-center bgr-green text-white"><code>.marg-2-bottom</code></div>
+                        <div class="grid-12 marg-3-bottom text-center bgr-green text-white"><code>.marg-3-bottom</code></div>
+
+                        <div class="grid-12 s-marg-3-top m-marg-2-top l-marg-1-top text-center bgr-green text-white"><code>.s-marg-3-top .m-marg-2-top .l-marg-1-top</code></div>
+
+                        <div class="grid-12 pad-3-vert text-center text-white">
+                            <div class="grid-2 m-grid-4 s-grid-6 border border-white bgr-green pad-3-vert">
+                                <div class="border">
+                                    <code>.pad-3-vert</code>
+                                </div>
+                            </div>
+                            <div class="grid-2 m-grid-4 s-grid-6 border border-white bgr-green pad-3-sides">
+                                <div class="border">
+                                    <code>.pad-3-sides</code>
+                                </div>
+                            </div>
+                            <div class="grid-2 m-grid-4 s-grid-6 border border-white bgr-green pad-3-bottom">
+                                <div class="border">
+                                    <code>.pad-3-bottom</code>
+                                </div>
+                            </div>
+                            <div class="grid-2 m-grid-4 s-grid-6 border border-white bgr-green pad-3-top">
+                                <div class="border">
+                                    <code>.pad-3-top</code>
+                                </div>
+                            </div>
+                            <div class="grid-2 m-grid-4 s-grid-6 border border-white bgr-green pad-3-left text-left">
+                                <div class="border">
+                                    <code>.pad-3-left</code>
+                                </div>
+                            </div>
+                            <div class="grid-2 m-grid-4 s-grid-6 border border-white bgr-green pad-3-right text-right">
+                                <div class="border">
+                                    <code>.pad-3-right</code>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="grid-12 pad-3-bottom">
+                        <h5><code>.border-#</code></h5>
+                        <div class="grid-12 pad-2-vert">
+                            <div class="grid-4 s-grid-12 pad-1-right pad-1-bottom">
+                                <div class="border">
+                                    <code>.border</code> 
+                                </div>
+                            </div>
+                            <div class="grid-4 s-grid-12 pad-1-right pad-1-bottom">
+                                <div class="border border-dashed">
+                                    <code>.border-dashed</code> 
+                                </div>
+                            </div>
+                            <div class="grid-4 s-grid-12 pad-1-right pad-1-bottom">
+                                <div class="border border-dotted">
+                                    <code>.border-dotted</code> 
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid-12 pad-2-bottom">
+                            <div class="grid-3 s-grid-6 pad-1-right">
+                                <div class="border-left">
+                                    <code>.border-left</code> 
+                                </div>
+                            </div>
+                            <div class="grid-3 s-grid-6 pad-1-right">
+                                <div class="border-top">
+                                    <code>.border-top</code> 
+                                </div>
+                            </div>
+                            <div class="grid-3 s-grid-6 pad-1-right">
+                                <div class="border-bottom">
+                                    <code>.border-bottom</code> 
+                                </div>
+                            </div>
+                            <div class="grid-3 s-grid-6 pad-1-right">
+                                <div class="border-right">
+                                    <code>.border-right</code> 
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid-12 pad-2-bottom">
+                            <div class="grid-2 m-grid-4 s-grid-6 pad-1-right pad-1-bottom">
+                                <div class="border border-green">
+                                    <code>.border-green</code> 
+                                </div>
+                            </div>
+                            <div class="grid-2 m-grid-4 s-grid-6 pad-1-right pad-1-bottom">
+                                <div class="border border-blue">
+                                    <code>.border-blue</code> 
+                                </div>
+                            </div>
+                            <div class="grid-2 m-grid-4 s-grid-6 pad-1-right pad-1-bottom">
+                                <div class="border border-pink">
+                                    <code>.border-pink</code> 
+                                </div>
+                            </div>
+                            <div class="grid-2 m-grid-4 s-grid-6 pad-1-right pad-1-bottom">
+                                <div class="border border-purple">
+                                    <code>.border-purple</code> 
+                                </div>
+                            </div>
+                            <div class="grid-2 m-grid-4 s-grid-6 pad-1-right pad-1-bottom">
+                                <div class="border border-red">
+                                    <code>.border-red</code> 
+                                </div>
+                            </div>
+                            <div class="grid-2 m-grid-4 s-grid-6 pad-1-right pad-1-bottom">
+                                <div class="border border-grey">
+                                    <code>.border-grey</code> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="grid-12 pad-3-bottom">
+                        <h5><code>.rounded .circle</code></h5>
+                        <div class="box-480 text-center pad-1-top s-pad-3-sides text-white">
+                            <div class="grid-6 s-grid-12 pad-2-right s-marg-1-bottom">
+                                <div class="pad-3-vert rounded bgr-green">
+                                    <div class="pad-3-vert"><code>.rounded</code></div>
+                                </div>
+                            </div>
+                            <div class="grid-6 s-grid-12 pad-2-right">
+                                <div class="pad-3-vert circle bgr-green">
+                                    <div class="pad-3-vert"><code>.circle</code></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="grid-12 pad-3-bottom">
+                        <h5><code>.rel .abs .pos-#</code></h5>
+                        <div class="grid-12 pad-2-vert">
+                            <div class="bgr-green grid-12 pad-3 rel text-center text-white">
+                                <div class="pad-3">
+                                    <code>.rel</code>    
+                                </div>
+                                <div class="text-small border border-dashed border-white pad-1 abs pos-top pos-left text-left">
+                                    <code>.abs <br/>.pos-top .pos-left</code>
+                                </div>
+                                <div class="text-small border border-dashed border-white pad-1 abs pos-top pos-right text-right">
+                                    <code>.abs <br/>.pos-top .pos-right</code>
+                                </div>
+                                <div class="text-small border border-dashed border-white pad-1 abs pos-bottom pos-left text-left">
+                                    <code>.abs <br/>.pos-bottom .pos-left</code>
+                                </div>
+                                <div class="text-small border border-dashed border-white pad-1 abs pos-bottom pos-right text-right">
+                                    <code>.abs <br/>.pos-bottom .pos-right</code>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="grid-12 pad-3-bottom">
+                        <h5><code>.front</code></h5>
+                        <div class="grid-12 pad-2-top pad-3-bottom">
+                            <div class="grid-12 pad-3-vert rel text-left text-white">
+                                <div class="grid-3 bgr-green pad-1-sides abs pos-top pos-left">
+                                    <div><strong>A</strong></div>
+                                </div>
+                                <div class="grid-6 offset-1 marg-2-top border border-dashed border-white bgr-green pad-1-sides abs pos-top pos-left">
+                                    <div><strong>B</strong></div>
+                                </div>
+                                <div class="grid-9 offset-2 marg-3-top border border-dashed border-white bgr-green pad-1-sides abs pos-top pos-left">
+                                    <div><strong>C</strong></div>
+                                </div>
+                            </div>
+                            <div class="grid-12 pad-3-vert rel text-right text-white">
+                                <div class="grid-3 border border-dashed border-white bgr-green pad-1-sides abs pos-top pos-left front">
+                                    <div><strong>A</strong></div>
+                                    <code class="text-small">.front</code>
+                                </div>
+                                <div class="grid-6 offset-1 marg-2-top border border-dashed border-white bgr-green pad-1-sides abs pos-top pos-left front-1">
+                                    <div><strong>B</strong></div>
+                                    <code class="text-small">.front-1</code>
+                                </div>
+                                <div class="grid-9 offset-2 marg-3-top bgr-green pad-1-sides abs pos-top pos-left front-2">
+                                    <div><strong>C</strong></div>
+                                    <code class="text-small">.front-2</code>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="grid-12 pad-3-bottom text-white">
+                        <h5><code>.float-#</code></h5>
+                        <div class="pad-2-top pad-3-bottom">
+                            <div class="bgr-green pad-2 float-left"><code>.float-left</code></div>
+                            <div class="bgr-green pad-2 float-right"><code>.float-right</code></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="grid-12 pad-3 s-pad-2">
+            <div class="box-960 box-center pad-3-bottom">
+                <div class="grid-12 pad-3-bottom">
+                    <h3 class="marg-2-bottom bgr-pink text-white text-light pad-2-sides">More Info</h3>
+                    <p>View <a href="../styleguide/base.html">default styles</a> for HTML elements, font styles, including family, color, size and line height.</p>
+                    <p>For more information about the Functional approach to CSS, check out the following related articles and projects.</p>
+                    <ul class="pad-1-vert">
+                        <li><a href="https://medium.com/@cole_peters/building-and-shipping-functional-css-4f29b947bcb9#.tzw99qp40">Building and shipping functional CSS</a></li>
+                        <li><a href="http://mrmrs.io/writing/2016/03/24/scalable-css/">CSS and Scalability</a></li>
+                        <li><a href="https://medium.com/@philipardeljan/15kb-of-css-is-all-youll-ever-need-%EF%B8%8F-634da7258338#.8ktlhfvjv">15kb of CSS is all you’ll ever need</a></li>
+                        <li><a href="https://marcelosomers.com/writing/rationalizing-functional-css/">Rationalizing Functional CSS</a></li>
+                        <li><a href="https://medium.com/@jkymarsh/future-css-dbc2cb8f1baf#.yj4tp7u4m">Future CSS</a></li>
+                        <li><a href="http://seesparkbox.com/foundry/naming_css_stuff_is_really_hard">Naming CSS Stuff Is Really Hard</a></li>
+                        <li><a href="http://tympanus.net/codrops/2013/01/22/defending-presentational-class-names/">Defending Presentational Class Names</a></li>
+                        <li><a href="http://www.impressivewebs.com/avoid-nonsemantic-classes/">Why Avoid Non-semantic Classes? Because They’re Non-semantic!</a></li>
+                        <li><a href="http://www.smashingmagazine.com/2013/10/21/challenging-css-best-practices-atomic-approach/">Challenging CSS Best Practices</a></li>
+                        <li><a href="http://nicolasgallagher.com/about-html-semantics-front-end-architecture/">About HTML Semantics and Front-End Architecture</a></li>
+                        <li><a href="http://www.sitepoint.com/using-helper-classes-dry-scale-css/">Using Helper Classes to DRY and Scale CSS</a></li>
+                        <li><a href="http://tachyons.io">Tachyons</a></li>
+                        <li><a href="http://www.basscss.com">Basscss</a></li>
+                        <li><a href="http://acss.io">Atomic CSS</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='https://www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-2821890-9','auto');ga('send','pageview');
+        </script>
+    </body>
+</html>

@@ -1,0 +1,132 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Expressive CSS Starter Kit</title>
+        <meta name="description" content="An approach to writing CSS using utility classes that are easy to write and understand.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,700,400italic,200,200italic' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="../../css/style.min.css">
+        <link rel="shortcut icon" href="../../favicon.ico">
+    </head>
+    <body>
+
+        <nav class="grid-12 bgr-grey-lt">
+            <div class="box-960 box-center">
+                <a class="inline pad-2-vert pad-2 border-0" href="../">Styleguide</a>
+                <a class="inline bold bgr-white pad-2 border-0 text-dark" href="../components.html">Components</a>
+            </div>
+        </nav>
+
+        <section class="grid-12 pad-3 s-pad-2">
+            <div class="box-960 box-center pad-3-bottom rel">
+                <a class="abs pos-top pos-right link-text" href="../components.html">View all components</a>
+                <h1 class="marg-3-bottom text-blue-lt text-light border-bottom">Forms</h1>
+                <div class="grid-12 pad-1-bottom">
+                    <p class="pad-2-bottom">Use the grid to create the structure of your forms, and take advantage of its responsive breakpoint prefixing for control of its structure across all screen sizes.</p>
+                    <div class="grid-12 pad-2-vert">
+                        <div class="grid-12 pad-2-bottom">
+                            <h6>Example</h6>
+                        </div>
+                        <form class="grid-12 l-grid-8" action="./" type="post">
+                            <div class="grid-6 s-grid-12 pad-1-right pad-1-bottom">
+                                <label for="first">First Name</label>
+                                <input id="first" name="first" type="text" required />
+                            </div>
+                            <div class="grid-6 s-grid-12 pad-1-right pad-1-bottom">
+                                <label for="last">Last Name</label>
+                                <input id="last" name="last" type="text" required />
+                            </div>
+                            <div class="grid-12 pad-1-right pad-1-bottom">
+                                <label for="address1">Street Address</label>
+                                <input id="address1" name="address1" type="text" class="marg-1-bottom" />
+                                <input id="address2" name="address2" type="text" required />
+                            </div>
+                            <div class="grid-6 s-grid-12 pad-1-right pad-1-bottom">
+                                <label for="city">City</label>
+                                <input id="city" name="city" type="text" required />
+                            </div>
+                            <div class="grid-2 s-grid-4 pad-1-right pad-1-bottom">
+                                <label for="state">State</label>
+                                <input id="state" name="state" type="text" required />
+                            </div>
+                            <div class="grid-4 s-grid-8 pad-1-right pad-1-bottom">
+                                <label for="zip">Zip Code</label>
+                                <input id="zip" name="zip" type="text" required />
+                            </div>
+                            <div class="grid-12 pad-1-vert">
+                                <div class="grid-6 s-grid-12 pad-1-right">
+                                    <label for="contact">Preferred Method of Contact</label>
+                                    <select name="contact" id="contact">
+                                        <option value="">Please select...</option>
+                                        <option value="phone">Phone</option>
+                                        <option value="email">Email</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="grid-6 s-grid-12 pad-1-right pad-1-bottom">
+                                <label for="tel">Phone</label>
+                                <input id="tel" name="tel" type="tel" pattern="[0-9]{10}" required  />
+                            </div>
+                            <div class="grid-6 s-grid-12 pad-1-right pad-1-bottom">
+                                <label for="email">Email</label>
+                                <input id="email" name="email" type="email" required />
+                            </div>
+                            <div class="grid-12 pad-2-top pad-1-right">
+                                <label for="agree" class="inline float-right clickable"><input type="checkbox" name="agree" id="agree" />I agree to the terms and conditions</label>
+                            </div>      
+                            <div class="grid-12 m-grid-6 m-offset-6 l-grid-4 l-offset-8 pad-1-right pad-3-top">
+                                <input type="submit" value="Save" class="btn wide" />    
+                            </div>
+                        </form>
+                    </div>
+                    
+                    <div class="grid-12 pad-3-top pad-1-bottom">
+                        <h5>States</h5>
+                    </div>
+                    <div class="grid-12 l-grid-8 pad-3-bottom">
+                        <div class="grid-12 pad-3-top">
+                            <div class="grid-4 s-grid-6 pad-1-right pad-1-bottom rel">
+                                <label for="hoverTooltip">Hover Tooltip
+                                </label>
+                                <input id="hoverTooltip" name="hoverTooltip" type="text" value="Hover for info"  />
+                                <div class="tooltip tooltip-hover pad-btn inline">Here is a sentence of helpful information for you.</div>
+                            </div>
+                            <div class="grid-4 s-grid-6 pad-1-right pad-1-bottom rel">
+                                <label for="error">Error</label>
+                                <input id="error" name="error" type="text" class="error" value="Something invalid"  />
+                                <div class="error text-red">We got a problem.</div>
+                            </div>
+                            <div class="grid-4 s-grid-6 pad-1-right pad-1-bottom rel">
+                                <label for="errorTooltip">Error Tooltip</label>
+                                <input id="errorTooltip" name="errorTooltip" type="text" class="error" value="Something invalid"  />
+                                <div class="tooltip error bgr-red text-white pad-btn inline">We got a problem.</div>
+                            </div>
+                        </div>
+                        <div class="grid-12 pad-2-vert">
+                            <div class="grid-4 s-grid-6 pad-1-right pad-1-bottom rel">
+                                <label for="disabled">Disabled</label>
+                                <input id="disabled" name="disabled" type="text" value="Disabled" disabled />
+                            </div>
+                            <div class="grid-4 s-grid-6 pad-1-right pad-1-bottom rel">
+                                <label for="readonly">Read Only</label>
+                                <input id="readonly" name="readonly" type="text" value="Read Only" readonly onfocus="this.select();" onmouseup="return false;" />
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='https://www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-2821890-9','auto');ga('send','pageview');
+        </script>
+    </body>
+</html>
