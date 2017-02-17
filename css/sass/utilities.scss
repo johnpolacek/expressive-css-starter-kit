@@ -38,6 +38,7 @@
 .circle { border-radius: 50%; }
 
 .animate {transition: all .25s ease-in-out;}
+.animate-all, .animate-all * {transition: all .25s ease-in-out;}
 
 /* Responsive Utilities */
 // Add all utility classes here in a mixin

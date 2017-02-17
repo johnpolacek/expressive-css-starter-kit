@@ -145,6 +145,8 @@ em, .italic { font-style: italic; }
 
 .animate { transition: all 0.25s ease-in-out; }
 
+.animate-all, .animate-all * { transition: all 0.25s ease-in-out; }
+
 /* Responsive Utilities */
 .rel { position: relative; }
 
