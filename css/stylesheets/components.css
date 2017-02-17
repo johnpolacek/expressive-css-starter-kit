@@ -113,16 +113,6 @@ button:hover, .btn:hover {
   padding: 16px 24px;
 }
 
-p a, li a, blockquote a, cite a, figcaption a, nav a, .link-text {
-  color: #287dbe;
-  border-bottom: dotted 1px rgba(0, 0, 0, 0.1);
-  text-decoration: none;
-}
-
-p a:hover, li a:hover, blockquote a:hover, cite a:hover, figcaption a:hover, .link-text:hover {
-  border-bottom: dotted 1px rgba(0, 0, 0, 0.15);
-}
-
 table {
   margin-bottom: 16px;
 }
