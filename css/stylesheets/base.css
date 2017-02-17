@@ -47,4 +47,9 @@ li {
 
 a {
   color: #287dbe;
+  text-decoration: none;
+}
+
+p a, li a, .link-text {
+  text-decoration: underline;
 }
