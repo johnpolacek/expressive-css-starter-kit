@@ -11,11 +11,11 @@ em, .italic { font-style:italic; }
 .text-14, small {font-size:14px;}
 .text-16, body, p, h6, h5 {font-size:16px;}
 .text-18, h4 {font-size:18px;}
-.text-20, h3 {font-size:24px;}
-.text-24, h2 {font-size:36px;}
-.text-32, h1 {font-size:48px;}
+.text-24, h3 {font-size:24px;}
+.text-36, h2 {font-size:36px;}
+.text-48, h1 {font-size:48px;}
 
 .uppercase { text-transform:uppercase; }
 .lowercase { text-transform:lowercase; }
 
-.letter-space-1 { letter-spacing:1px; }
+.lineheight-1 { line-height: 1; }
