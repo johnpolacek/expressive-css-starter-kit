@@ -10,6 +10,6 @@
 @mixin containersGenerator($widths, $containerName) {
   @for $i from 1 through length($widths) {
     $width: nth($widths, $i);
-    .#{$containerName}-#{$width} { max-width: #{$width}px; }
+    .#{$containerName}-#{$width} { width:100%; max-width: #{$width}px; }
   }
 }

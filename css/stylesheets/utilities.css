@@ -1,23 +1,23 @@
 /* Containers */
-.box-320 { max-width: 320px; }
+.box-320 { width: 100%; max-width: 320px; }
 
-.box-400 { max-width: 400px; }
+.box-400 { width: 100%; max-width: 400px; }
 
-.box-480 { max-width: 480px; }
+.box-480 { width: 100%; max-width: 480px; }
 
-.box-560 { max-width: 560px; }
+.box-560 { width: 100%; max-width: 560px; }
 
-.box-640 { max-width: 640px; }
+.box-640 { width: 100%; max-width: 640px; }
 
-.box-720 { max-width: 720px; }
+.box-720 { width: 100%; max-width: 720px; }
 
-.box-800 { max-width: 800px; }
+.box-800 { width: 100%; max-width: 800px; }
 
-.box-960 { max-width: 960px; }
+.box-960 { width: 100%; max-width: 960px; }
 
-.box-1100 { max-width: 1100px; }
+.box-1100 { width: 100%; max-width: 1100px; }
 
-.box-1200 { max-width: 1200px; }
+.box-1200 { width: 100%; max-width: 1200px; }
 
 .box-center { margin-left: auto; margin-right: auto; }
 
