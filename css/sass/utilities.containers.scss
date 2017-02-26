@@ -3,4 +3,9 @@
 /* Containers */
 $widths: ('320','400','480','560','640','720','800','960','1100','1200');
 @include containersGenerator($widths,'box');
+
 .box-center { margin-left:auto; margin-right:auto; }
+
+.fit-contain { object-fit: contain; }
+.fit-cover { object-fit: cover; }
+.fit-fill { object-fit: fill; }
