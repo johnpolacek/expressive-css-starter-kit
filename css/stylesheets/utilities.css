@@ -57,6 +57,8 @@ em, .italic { font-style: italic; }
 
 .lowercase { text-transform: lowercase; }
 
+.underline { text-decoration: underline; }
+
 .lineheight-1 { line-height: 1; }
 
 /* Color Utils */
