@@ -149,6 +149,8 @@ em, .italic { font-style: italic; }
 
 .circle { border-radius: 50%; }
 
+.list-none { list-style: none; padding-left: initial; }
+
 .animate { transition: all 0.25s ease-in-out; }
 
 .animate-all, .animate-all * { transition: all 0.25s ease-in-out; }

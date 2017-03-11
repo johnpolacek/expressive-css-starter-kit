@@ -37,6 +37,8 @@
 .rounded { border-radius: $borderRadius; }
 .circle { border-radius: 50%; }
 
+.list-none { list-style:none; padding-left:initial; }
+
 .animate {transition: all .25s ease-in-out;}
 .animate-all, .animate-all * {transition: all .25s ease-in-out;}
 
