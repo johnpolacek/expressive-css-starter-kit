@@ -50,6 +50,6 @@ a {
   text-decoration: none;
 }
 
-p a, li a, .link-text {
+p a, li a, cite a, .link-text {
   text-decoration: underline;
 }
