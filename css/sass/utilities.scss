@@ -23,6 +23,7 @@
 .wide { width: 100%; }
 .tall { height: 100%; }
 .expand-v { min-height: 100vh; }
+.img-responsive { max-width:100%; height: auto; }
 
 .crop {overflow:hidden;}
 .crop-x {overflow-x:hidden;}
