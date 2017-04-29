@@ -11,6 +11,7 @@ html {
   font-family: 'Titillium Web', sans-serif;
   color: #234;
   line-height: 1.6;
+  box-sizing: border-box;
 }
 
 header, footer {
