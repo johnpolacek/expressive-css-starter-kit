@@ -131,6 +131,12 @@ em, .italic { font-style: italic; }
 
 .expand-v { min-height: 100vh; }
 
+.crop { overflow: hidden; }
+
+.crop-x { overflow-x: hidden; }
+
+.crop-y { overflow-y: hidden; }
+
 .pos-top { top: 0; }
 
 .pos-bottom { bottom: 0; }

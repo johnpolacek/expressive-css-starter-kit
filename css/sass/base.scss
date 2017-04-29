@@ -29,6 +29,6 @@ ul ul {padding-top: $pad1; }
 li { padding-bottom: $pad1; }
 
 a { color: $blue; text-decoration: none; }
-p a, li a, cite a, .link-text {
+p a, li a, cite a, figcaption a, .link-text {
     text-decoration: underline;
 }
